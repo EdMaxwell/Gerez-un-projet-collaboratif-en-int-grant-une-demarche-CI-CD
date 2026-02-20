@@ -303,7 +303,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=EdMaxwell_v1_projet_cicd
+            -Dsonar.projectKey=EdMaxwell_Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD
             -Dsonar.organization=edmaxwell
             -Dsonar.host.url=https://sonarcloud.io
 
