@@ -323,8 +323,8 @@ jobs:
           echo "**Analysis Status:** Completed" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**View Results:**" >> $GITHUB_STEP_SUMMARY
-          echo "- [SonarCloud Dashboard](https://sonarcloud.io/dashboard?id=EdMaxwell_v1_projet_cicd)" >> $GITHUB_STEP_SUMMARY
-          echo "- [Quality Gate Status](https://sonarcloud.io/project/quality_gate?id=EdMaxwell_v1_projet_cicd)" >> $GITHUB_STEP_SUMMARY
+          echo "- [SonarCloud Dashboard](https://sonarcloud.io/dashboard?id=EdMaxwell_Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD)" >> $GITHUB_STEP_SUMMARY
+          echo "- [Quality Gate Status](https://sonarcloud.io/project/quality_gate?id=EdMaxwell_Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Metrics Analyzed:**" >> $GITHUB_STEP_SUMMARY
           echo "- Code Coverage (Backend: JaCoCo, Frontend: LCOV)" >> $GITHUB_STEP_SUMMARY
