@@ -337,7 +337,7 @@ jobs:
   docker:
     name: Build & Push Docker Images
     runs-on: ubuntu-latest
-    needs: [backend, frontend, sonar]
+    needs: [ backend, frontend, sonar ]
     # Only publish on push to main – never on pull_request
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
